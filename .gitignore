@@ -1,28 +1,10 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+#cocos2d
+cocos2d/
 
-# Precompiled Headers
-*.gch
-*.pch
+#proj.win32/Debug.win32
+proj.win32/Debug.win32/
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+#proj.win32/MyCppGame.sdf
+proj.win32/MyCppGame.sdf
 
-# Fortran module files
-*.mod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+proj.win32/MyCppGame.VC.opendb
