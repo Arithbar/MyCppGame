@@ -10,8 +10,53 @@
     <Filter Include="src">
       <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src\qwe">
-      <UniqueIdentifier>{869b00d5-da2c-460a-aa97-d8984749f3a6}</UniqueIdentifier>
+    <Filter Include="src\场景类">
+      <UniqueIdentifier>{7aa59973-c9e6-44f8-a9ca-d8a66e5705f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\实体类">
+      <UniqueIdentifier>{0c08912a-8ceb-4449-a33d-7b5c126d4ec4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\全局参数类">
+      <UniqueIdentifier>{92c46e2b-6347-42a3-aac1-60853114fffa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\实体类\玩家">
+      <UniqueIdentifier>{52fcd8ea-88ad-445e-87a1-a007aa140f6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\实体类\敌方">
+      <UniqueIdentifier>{52fd3282-c3bb-4321-97f5-a368aa0d2a33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\实体类\敌方\小鬼">
+      <UniqueIdentifier>{13431bcd-9623-4963-8833-9450611c1c9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\实体类\敌方\BOSS">
+      <UniqueIdentifier>{e3b925b2-2107-40bc-8539-69b17435f95d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\工具类">
+      <UniqueIdentifier>{b6fac6b0-03df-447f-bffb-91b38d785974}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\场景类\StartScene">
+      <UniqueIdentifier>{b8a33330-1c3e-4d9f-8b3b-10860ffceba9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\场景类\MapScene">
+      <UniqueIdentifier>{4c20cd9a-1ec1-46e5-992b-1b51b1c48b3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\场景类\SettingScene">
+      <UniqueIdentifier>{59f2fba9-b7af-45ec-9589-2526be6127ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\场景类\HelpScene">
+      <UniqueIdentifier>{88f80c26-98be-4540-a4db-e465b4bd8b67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\场景类\StopScene">
+      <UniqueIdentifier>{abdf86c9-06cc-4ae7-9cfc-0c0ae9295d45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\场景类\BBScene">
+      <UniqueIdentifier>{3343a555-d7e1-4f05-9c2b-5440a2558f69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\工具类\LoadCache">
+      <UniqueIdentifier>{82b42621-ba27-43f3-9b31-8bc22d686541}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\实体类\炸弹子弹">
+      <UniqueIdentifier>{d7c8b157-6803-4436-8fad-ddcaec821ccb}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -21,8 +66,17 @@
     <ClCompile Include="..\Classes\AppDelegate.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="MyTank.cpp">
+      <Filter>src\实体类\玩家</Filter>
+    </ClCompile>
+    <ClCompile Include="TankBase.cpp">
+      <Filter>src\实体类</Filter>
+    </ClCompile>
     <ClCompile Include="..\Classes\HelloWorldScene.cpp">
-      <Filter>src</Filter>
+      <Filter>src\场景类\StartScene</Filter>
+    </ClCompile>
+    <ClCompile Include="bomb.cpp">
+      <Filter>src\实体类\炸弹子弹</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -32,8 +86,23 @@
     <ClInclude Include="..\Classes\AppDelegate.h">
       <Filter>src</Filter>
     </ClInclude>
+    <ClInclude Include="GlobalData.h">
+      <Filter>src\全局参数类</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTank.h">
+      <Filter>src\实体类\玩家</Filter>
+    </ClInclude>
+    <ClInclude Include="TankBase.h">
+      <Filter>src\实体类</Filter>
+    </ClInclude>
+    <ClInclude Include="TollGateCcene.h">
+      <Filter>src\场景类\MapScene</Filter>
+    </ClInclude>
     <ClInclude Include="..\Classes\HelloWorldScene.h">
-      <Filter>src</Filter>
+      <Filter>src\场景类\StartScene</Filter>
+    </ClInclude>
+    <ClInclude Include="bomb.h">
+      <Filter>src\实体类\炸弹子弹</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
